@@ -1,0 +1,17 @@
+.mainContentContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10pt;
+  height: 75%;
+}
+
+.mainContentContainer > h2{
+  font-size: 28pt;
+}
+
+.mainContentContainer > p {
+  margin-top: 10pt;
+  text-align: center;
+}
