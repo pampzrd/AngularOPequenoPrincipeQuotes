@@ -8,7 +8,7 @@ import {Stickers} from '../../components/stickers/stickers';
   selector: 'app-home',
   imports: [Maincontent,Title,Staticstickers,Stickers],
   templateUrl: './home.html',
-  styleUrl: './home.css'
+  styleUrls: ['./home.css','homeResponsively.css']
 })
 export class Home {
 
