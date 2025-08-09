@@ -1,9 +1,8 @@
 .homeContainer{
-  width: 100%;
-  height: 80%;
+  width: 100vw;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10%;
   margin-top: 20pt;
 
@@ -18,17 +17,18 @@
 }
 .asideLeft{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 0;
 }
 .asideRight{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 0;
 }
 .washiTapeRight, .washiTapeLeft{
-  height: 100dvh;
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
+  height: 100px;
+  width: 100px;
+
 }
 
 footer{

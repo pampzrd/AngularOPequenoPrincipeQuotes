@@ -1,0 +1,21 @@
+.stickersContainer{
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  left: 0;
+}
+
+.stickersContainer > .stickersStatic > .imgBox, .stickersContainer > .stickersLinks > .imgBox{
+  width: 80pt;
+}
+
+
+.stickersContainer > .stickersStatic > .imgBox > img, .stickersContainer > .stickersLinks > .imgBox > img
+{
+  width: 100%;
+  height: 100%;
+}
+
+
