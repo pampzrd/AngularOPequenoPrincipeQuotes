@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './maincontent.css'
 })
 export class Maincontent {
+  tituloTrecho:string="TITULINHO TITULINHO";
+  textoTrecho:string="TrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinhoTrechinho";
+  comentarioTrecho:string="ComentáriosComentáriosComentáriosComentáriosComentáriosComentáriosComentários";
 
 }

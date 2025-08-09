@@ -5,13 +5,25 @@
   align-items: center;
   margin-top: 10pt;
   height: 75%;
+  position: relative;
+  z-index: 5;
+  flex-wrap: wrap;
 }
 
 .mainContentContainer > h2{
   font-size: 28pt;
+  width: 100%;
 }
 
 .mainContentContainer > p {
   margin-top: 10pt;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comment{
+  color: #75b2ef;
+  width: 100%;
 }

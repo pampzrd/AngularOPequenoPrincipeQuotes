@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Staticstickers } from './staticstickers';
+import { Bgart } from './bgart';
 
-describe('Staticstickers', () => {
-  let component: Staticstickers;
-  let fixture: ComponentFixture<Staticstickers>;
+describe('Bgart', () => {
+  let component: Bgart;
+  let fixture: ComponentFixture<Bgart>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Staticstickers]
+      imports: [Bgart]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Staticstickers);
+    fixture = TestBed.createComponent(Bgart);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
