@@ -8,7 +8,9 @@
   position: relative;
   z-index: 10;
   flex-wrap: wrap;
+  max-width: 500px;
 }
+
 
 .mainContentContainer > h2{
   font-size: 28pt;
