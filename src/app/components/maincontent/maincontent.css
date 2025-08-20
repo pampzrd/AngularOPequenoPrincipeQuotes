@@ -6,7 +6,7 @@
   margin-top: 10pt;
   height: 75%;
   position: relative;
-  z-index: 5;
+  z-index: 10;
   flex-wrap: wrap;
 }
 
