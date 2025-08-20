@@ -8,7 +8,7 @@ import { dataQuotes } from '../../Data/dataQuotes';
   styleUrls: ['./maincontent.css']
 })
 export class Maincontent {
-  private id: string | null = "1";
+  private id: string | null = "5";
   tituloTrecho: string = "";
   textoTrecho: string = "";
   comentarioTrecho: string = "";

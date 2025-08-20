@@ -35,5 +35,11 @@ export const dataQuotes = [
     — Mas, sim, eu amo você - disse a flor. - Você não sabia de nada por minha culpa. Isso não tem nenhuma importância.
     Mas você é tão tonto quanto eu. Trate de ser feliz...`,
     "comment":`Despedidas são tristes.`
+  },
+  {
+    "id":"5",
+    "title":"TITULO MANEIRO",
+    "text":"bla bla bla bla bla",
+    "comment": "cit cit cit com com "
   }
   ]
