@@ -14,11 +14,18 @@ export class Maincontent {
   comentarioTrecho: string = "";
 
   constructor(private route: ActivatedRoute) {
+    this.route.paramMap.subscribe(value =>
+    {value.get("id");
+      this.getTheValues(this.id);
+    });
+  }
+
+/*  constructor(private route: ActivatedRoute) {
     this.route.paramMap.subscribe(value => {
       this.id = value.get("id");
       this.getTheValues(this.id);
     });
-  }
+  }*/
 
   getTheValues(id: string | null) {
     const data = dataQuotes.find(retorno => retorno.id === id);
