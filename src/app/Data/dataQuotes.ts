@@ -5,7 +5,7 @@ export const dataQuotes = [
     "text":`Um dia, eu vi o sol se pôr quarenta e quatro vezes! - E um pouco depois acrescentou:
     — Você sabe... Quando estamos tristes demais, gostamos de ver o sol se pôr.
     — No dia em que viu quarenta e quatro vezes, você estava tão triste assim?
-    Mas o pequeno príncipe não respondeu.`,
+     Mas o pequeno príncipe não respondeu.`,
     "comment": "O Antoine deve ter passado muito tempo naquele avião vendo pores do sol e sentindo saudades."
   },
   {
