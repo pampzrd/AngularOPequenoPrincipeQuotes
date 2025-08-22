@@ -1,16 +1,15 @@
 .mainContentContainer{
   display: flex;
   margin-top: 10pt;
-  width: 400px;
-  justify-items: center;
+  width: 100%;
 }
 
-.mainContentContainer > h2{
-  font-size: 28pt;
+.caixa > h2{
+  font-size: 34pt;
   width: 80%;
 }
 
-.mainContentContainer > p {
+.caixa > p {
   margin-top: 10pt;
   width: 100%;
   display: flex;
@@ -26,6 +25,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
-  width: 100%;
+  width: 40%;
+  margin: auto;
 }
