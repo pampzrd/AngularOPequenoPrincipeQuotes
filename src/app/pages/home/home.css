@@ -1,6 +1,12 @@
 .homeContainer{
   width: 100%;
-  gap: 10%;
-  margin-top: 20pt;
+  height: 100%;
+  margin: 30pt 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+hr{
+  margin: 10pt 0;
 }
