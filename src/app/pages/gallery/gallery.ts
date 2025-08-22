@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, numberAttribute} from '@angular/core';
 import {CardTrecho} from '../../components/card-trecho/card-trecho';
 import {dataQuotes} from '../../Data/dataQuotes';
+
 
 
 @Component({
@@ -15,8 +16,12 @@ import {dataQuotes} from '../../Data/dataQuotes';
 export class Gallery{
   card:string = "";
   quantidade:number = dataQuotes.length;
+  item:string = "";
+  lista:string[] = [];
 
   constructor() { }
+  checarListaDados() {
+    this.lista.forEach((item: string, index: number) => {
 
-
-}
+    });
+  }}
