@@ -13,7 +13,7 @@ import {dataQuotes} from '../../Data/dataQuotes';
 })
 export class CardTrecho {
   @Input()
-  private id :string|null="";
+  id :string|null="";
   tituloCard:string="";
 
   constructor(private route:ActivatedRoute) {
