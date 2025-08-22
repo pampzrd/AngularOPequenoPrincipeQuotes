@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import {Maincontent} from '../../components/maincontent/maincontent';
-import {Title} from '../../components/title/title';
-
+import { Gallery} from '../gallery/gallery';
 
 @Component({
   selector: 'app-home',
-  imports: [Maincontent, Title],
+  imports: [Gallery],
   templateUrl: './home.html',
   styleUrls: ['./home.css','homeResponsively.css']
 })

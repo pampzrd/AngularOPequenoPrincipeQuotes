@@ -1,0 +1,24 @@
+.cardTrecho{
+  width: 300px;
+  height: 100%;
+  gap: 2pt;
+  border-radius: 5pt;
+  border: solid 2px aqua;
+  background-color: midnightblue;
+
+}
+
+.cardTrecho > p{
+  font-size: 12pt;
+  padding: 10pt;
+  text-align: justify;
+}
+
+.cardHero{
+  padding: 10pt;
+}
+
+.cardHero > img{
+  height: 100%;
+  width: 100%;
+}
